@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    margin: 10px;
+    text-align: center;
+    color: rgb(107, 105, 233);
+}
+
+.crud{
+    margin-top: 50px;
+}
+
+.content {
+    border: 3px solid rgb(199, 174, 199);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30vw;
+    box-shadow: 5px  5px  1px rgb(209, 198, 221);
+}
+
+.content h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.crud-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.crud-form input{
+    padding: 10px;
+    border: 2px solid rgb(165, 146, 216);
+    border-radius: 10px;
+}
+
+.btnEnviar{
+    background-color: rgb(199, 174, 199);
+    color: white;
+    font-weight: bold;
+}
+
+.tituloTabla {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.crud-table {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.crud-table th {
+    margin-bottom: 10px;
+    border: 3px solid rgb(215, 150, 235);
+    background-color: rgb(227, 223, 231);
+    padding: 10px;
+}
+
+.crud-table td {
+    border: 3px solid rgb(190, 152, 221);
+    padding: 10px; 
+}   
+
+.edit {
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.delete {
+    background-color: rgb(243, 45, 45);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
